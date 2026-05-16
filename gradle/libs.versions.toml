@@ -1,0 +1,12 @@
+[versions]
+kotlin-dsl = "6.5.7"
+fabric-loom = "1.17.0-alpha.8"
+mod-dev-gradle = "2.0.141"
+
+[plugins]
+kotlin-dsl = { id = "org.gradle.kotlin.kotlin-dsl", version.ref = "kotlin-dsl" }
+fabric-loom = { id = "net.fabricmc.fabric-loom", version.ref = "fabric-loom" }
+mod-dev-gradle = { id = "net.neoforged.moddev", version.ref = "mod-dev-gradle" }
+
+[libraries]
+
